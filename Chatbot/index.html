@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Eve</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="icon" href="./static/chrome-icon.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+</head>
+<body>
+    <div class="header" id="header">
+        <button class="chat-btn" id="chat-btn" type="button">
+            Click to  <span id="hint">open!</span> 
+            <i class="fas fa-comments" style="color:whitesmoke;" id="chat-icon"></i>
+        </button>
+    </div>
+    <div class="container" id="container">
+        <div class="chat-box">
+          <div class="msg-container">
+              <div class="chat-messages">
+
+                  <div class="timestamp" id="timestamp">
+                      <h5 id="chat-time"> <!--time goes here--> loading...</h5>
+                      <p class="bot-text" id="bot-text"><img src="./static/bot icon.jpg">Hi there! &#128075;</p>
+                      <div class="chat-appending" id="chat-appending">
+                      </div>
+                  </div>
+                  <div class="input-block">
+                      <div class="user-input">
+                          <input type="text" id="user-msg" class="user-msg" placeholder=" Type and click send to chat with me!" >
+                      </div>
+                      <div class="chat-icons">
+                        <i class="fa fa-heart" style="color:red"id="chat-icon" onclick="heart()"></i> 
+                        <i class="fa fa-paper-plane" style="color:aquamarine" id="chat-icon" onclick="send()"></i> 
+                      </div>
+                      <button type="button" id="reset-btn"><i class="fa fa-rotate-right" id="reset"></i></button>
+                  </div>
+                  <div class="chat-bottom" id="chat-bottom">
+                      <p></p>
+                  </div>
+              </div>
+          </div>  
+          <p id="joke">Try: Tell me a joke 😉 </p>
+        </div>
+    </div>
+    <footer id="footer">
+        <p id="footer-p">Copyright &copy;Chat bot Suman Roy All Rights Reserved 2022</p>
+    </footer>
+  <script src="./scripts/index.js"></script> 
+  <script src="./scripts/response.js"></script> 
+</body>
+</html>
