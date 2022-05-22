@@ -45,9 +45,7 @@ sendMsg.addEventListener("click",function msginit() {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Host': 'jokeapi-v2.p.rapidapi.com',
-                'X-RapidAPI-Key': '18bab2eda6msh0029f8a7d7fcf40p1af132jsn0ef36b5211bd'
-            }
+                //key hidden for privacy 
         };
 
         fetch('https://jokeapi-v2.p.rapidapi.com/joke/Programming?format=json&idRange=0-319&blacklistFlags=nsfw%2Cracist&type=single', options)
