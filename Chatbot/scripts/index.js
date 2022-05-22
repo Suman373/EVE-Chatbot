@@ -58,20 +58,7 @@ sendMsg.addEventListener("click",function msginit() {
             })
             .catch(err => console.error(err));
     }
-    else {
-        let reply = bot_message_init(userMsg);
-        setTimeout(() => {
-            botpara.innerHTML = `<p><img src="./static/bot icon.jpg">${reply}</p>`;
-            botpara.classList.add('bot-text');
-            chatDiv.appendChild(botpara);
-            botpara.scrollIntoView(false);// scroll to last line present
-        }, 600);
 
-    }
-    setTimeout(() => { // clearing user input panel 
-        document.getElementById('user-msg').value = '';
-        userMsg = "";
-    }, 100);
     
 });
 
