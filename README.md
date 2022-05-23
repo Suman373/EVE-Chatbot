@@ -1,22 +1,18 @@
 # Chatbot Eve
-## (Technica Hackathon Project)
 
 ## Authors
 
 - [@Suman373](https://www.github.com/Suman373)
 
 
-
-
 ## Badges
-
 
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 
 
-## This is a javascript chatbot, it has replies to certain user queries and questions for interaction. 
+### This is a javascript chatbot, it has replies to certain user queries and questions for interaction. 
  
 ## Technologies used
 ![VSCode()](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
