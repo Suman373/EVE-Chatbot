@@ -45,10 +45,10 @@ sendMsg.addEventListener("click",function msginit() {
         const options = {
             method: 'GET',
             headers: {
-                //key hidden for privacy 
+                
         };
 
-        fetch('https://jokeapi-v2.p.rapidapi.com/joke/Programming?format=json&idRange=0-319&blacklistFlags=nsfw%2Cracist&type=single', options)
+        fetch('https://jokeapi-v2.p.rapidapi.com', options)
             .then(response => response.json())
             .then(response => {
                 botpara.innerHTML = `<p><img src="./static/bot icon.jpg">${response.joke}</p>`;
