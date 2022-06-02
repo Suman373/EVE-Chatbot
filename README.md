@@ -1,3 +1,6 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/95040233/171650273-190b82ea-7802-4762-9c6b-4331d6a67287.png" height="350"></p>
+
+
 # Chatbot Eve
 
 ## Authors
@@ -7,12 +10,10 @@
 
 ## Badges
 
-
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 
-
-### This is a javascript chatbot, it has replies to certain user queries and questions for interaction. 
+### This is a javascript chatbot,has embedded replies(hardcoded) to certain interactive questions. 
  
 ## Technologies used
 ![VSCode()](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
@@ -22,14 +23,9 @@
 ![CSS()](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ![Javascript()](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-## Lessons Learned
- 
-### Integrating a REST api from RapidApi
 
 ## Feedback
-### If you have see any issue in my project, feel free to create an issue and contribute to this project!
-
-
+### If you have any issue with my project, feel free to create an issue or contribute to this project!
 
 
 ## Made with Love &#10084;
